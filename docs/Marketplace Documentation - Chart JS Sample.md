@@ -1,6 +1,6 @@
 # Chart JS Sample – Marketplace Documentation
 
-Sample version 1.0.0 · Mendix Studio Pro 10.24.17 · Web (React client) · Complete app package
+Sample version 1.1.0 · Mendix Studio Pro 10.24.17 · Web (React client) · Complete app package
 
 ## Industry
 
@@ -23,7 +23,7 @@ Chart JS Sample is a small Mendix app that shows the Chart JS widgets at work. O
 
 Use the sample to see how the widgets are configured before you add them to your own app: how a series gets its data from a microflow or from the database, how options are switched with Boolean attributes, and how a click on a chart reaches a microflow.
 
-This version is converted to Mendix Studio Pro 10.24.17. The functionality is the same as before. The converted app was started on the 10.24.17 runtime and checked in a browser: all seven charts are drawn and the browser console shows no errors.
+Version 1.1.0 is for Mendix Studio Pro 10.24.17. The functionality is the same as before. New in 1.1.0: the package contains the data snapshot with five sample rows, so the charts show data on the first run (the 1.0.0 package did not). The converted app was started on the 10.24.17 runtime and checked in a browser: all seven charts are drawn and the browser console shows no errors.
 
 The package is a complete app, not a module. To add the charts to your own app, use the Chart JS widgets: https://github.com/bharathidas/ChartJS
 

@@ -8,6 +8,14 @@
 - Mendix Studio Pro 10.24.17 or newer, web only
 - Includes all five Chart JS widget packages (Area, Bar, Line, Pie and ChartJSTwo)
 - License: MIT
+- Current version: 1.1.0 (release [v1.1.0](https://github.com/bharathidas/ChartJSDemo/releases/tag/v1.1.0))
+
+## Changes in 1.1.0
+
+- The package now contains the data snapshot with the five sample rows, so the charts show data on the first run.
+  The 1.0.0 package did not contain it; there the charts stayed empty until rows were added.
+- New documentation, cover and screenshots (see `docs`).
+- The app model is the same as in 1.0.0.
 
 ## Installation
 
@@ -15,7 +23,7 @@ This is a complete app package, not a module package.
 
 1. Download `Chartjs2.mpk` from the [latest release](https://github.com/bharathidas/ChartJSDemo/releases).
 2. In Studio Pro 10.24.17, choose **File > Import app package** and select `Chartjs2.mpk`.
-3. Run the app and open the home page.
+3. Run the app and open the home page. If Studio Pro asks to synchronize the database, confirm.
 
 To use the widgets in your own app, import `ChartJSModule.mpk` from the
 [Chart JS releases](https://github.com/bharathidas/ChartJS/releases) instead.
